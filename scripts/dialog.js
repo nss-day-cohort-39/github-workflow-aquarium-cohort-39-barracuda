@@ -49,6 +49,18 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+
+    // Show Trey's details when the button is clicked
+document.querySelector("#button--trey").addEventListener(
+    "click",
+    theClickEvent => {
+        const theDialog = document.querySelector("#details--trey")
+        theDialog.showModal()
+    }
+)
+    
 }
+
+
 
 export default initializeDetailButtonEvents
