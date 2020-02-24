@@ -49,6 +49,16 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+
+
+// Show Thanos's details when the button is clicked
+document.querySelector("#button--thanos").addEventListener(
+    "click",
+    theClickEvent => {
+        const theDialog = document.querySelector("#details--thanos")
+        theDialog.showModal()
+    }
+)
 }
 
 export default initializeDetailButtonEvents
