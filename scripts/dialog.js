@@ -52,13 +52,13 @@ const initializeDetailButtonEvents = () => {
 
 
 // Show Thanos's details when the button is clicked
-document.querySelector("#button--thanos").addEventListener(
-    "click",
-    theClickEvent => {
-        const theDialog = document.querySelector("#details--thanos")
-        theDialog.showModal()
-    }
-)
+    document.querySelector("#button--thanos").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--thanos")
+            theDialog.showModal()
+        }
+    )
     // Shows Albert's details when the button is called
     document.querySelector("#button--albert").addEventListener(
         "click",
@@ -69,13 +69,21 @@ document.querySelector("#button--thanos").addEventListener(
     )
 
     // Show Trey's details when the button is clicked
-document.querySelector("#button--trey").addEventListener(
-    "click",
-    theClickEvent => {
-        const theDialog = document.querySelector("#details--trey")
-        theDialog.showModal()
-    }
-)
+    document.querySelector("#button--trey").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--trey")
+            theDialog.showModal()
+        }
+    )
+
+    document.querySelector("#button--barracuda").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--barracuda")
+            theDialog.showModal()
+        }
+    )
     
 }
 
