@@ -69,6 +69,4 @@ document.querySelector("#button--trey").addEventListener(
     
 }
 
-
-
 export default initializeDetailButtonEvents
